@@ -39,6 +39,9 @@
             <a href="<?= BASE_URL ?>/kategori/index.php" class="<?= menuAktif('kategori', $activeMenu) ?>">
                 <span>🏷️</span> Kategori
             </a>
+            <a href="<?= BASE_URL ?>/users/index.php" class="<?= menuAktif('users', $activeMenu) ?>">
+                <span>👤</span> Pengguna
+            </a>
 
             <div class="menu-label">Segera Hadir</div>
             <a class="disabled"><span>🔄</span> Transaksi <small>Mg 14</small></a>
